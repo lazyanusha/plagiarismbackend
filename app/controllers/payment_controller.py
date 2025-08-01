@@ -9,8 +9,7 @@ from app.database.db_connect import test_database_connection
 # Khalti endpoints and secret key
 KHALTI_INITIATE_URL = "https://a.khalti.com/api/v2/epayment/initiate/"
 KHALTI_LOOKUP_URL = "https://a.khalti.com/api/v2/epayment/lookup/"
-KHALTI_SECRET_KEY = "Key " + os.getenv("KHALTI_SECRET_KEY")
-
+KHALTI_SECRET_KEY = f"Key {os.getenv("KHALTI_SECRET_KEY")}"
 # 1. Initiate Khalti Payment
 def initiate_khalti_payment(data: PaymentRequest) -> str:
     if not data:
