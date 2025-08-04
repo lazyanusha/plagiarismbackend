@@ -1,6 +1,8 @@
 # Plagiarism Detection API
 
 This is a FastAPI-based web application for plagiarism detection. It includes user management, subscription plans, document uploads, plagiarism reports, notifications, and admin functionality.
+The final branch contains complete code.
+
 
 ## Features
 
@@ -81,3 +83,4 @@ Accessible under /plans, /payments, /reports, etc., depending on roles
  -Other file types and unlimited access require login and active subscription
 
 
+frontend url : https://github.com/lazyanusha/TrueType/tree/final
